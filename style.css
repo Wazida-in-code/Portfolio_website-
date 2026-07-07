@@ -118,3 +118,33 @@ ul{
     padding: 10px;
     border-radius: 5px;
 }
+
+
+/* What I do Section */
+
+.what-do-parent{
+    text-align: center;
+    margin: 60px auto;
+}
+
+.what-do-container{
+    margin-top: 30px;
+    gap: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.what-do-container .what-do-card{
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    padding: 8px;
+    text-align: left;
+}
+
+.what-do-container .what-do-card h2{
+    margin: 10px 0;
+}
+.what-do-container .what-do-card p{
+    color: #757575;
+    font-size: 15px;
+}

@@ -1,7 +1,12 @@
+/* Reset Style */
 *{
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
+}
+
+img{
+    max-width: 100%;
 }
 
 /* common button */
@@ -12,14 +17,29 @@
     border: none;
     color: aliceblue;
     border-radius: 5px;
+    cursor: pointer;
 }
 
+.outline-btn{
+    background-color: aliceblue;
+    font-weight: bold;
+    padding: 6px 20px;
+    border: none;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* nav ber */
 nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1100px;
-    margin: auto;
     padding: 12px 0;
 }
 
@@ -40,3 +60,61 @@ ul{
     align-items: center;
 }
 
+/* my img  */
+
+.me{
+    width: 584;
+    height: 676;
+}
+
+/* Hero Section */
+.hero-parent-root{
+    background-color: rgb(247, 238, 255);
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.hero-left h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.hero-left-p1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero-left-btn-parent{
+    margin-top: 12px;
+}
+
+.about-me{
+    background-color: rgb(247, 238, 255);
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 120px;
+    text-align: center;
+    height: 300px;
+}
+
+.about-me p{
+    margin: 10px 0;
+}
+
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+
+.about-box-parent .box{
+    background-color: rgb(212, 190, 234);
+    padding: 10px;
+    border-radius: 5px;
+}
